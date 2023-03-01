@@ -76,7 +76,7 @@ header ul {
     list-style: none;
 }
 
-button {
+.hero-content button {
     border-radius: 5px;
     background-color: #3882F6;
     color: white;
@@ -101,9 +101,6 @@ button {
     gap: 24px;
     width: 80%;
     margin: auto;
-}
-
-.box {
 }
 
 .box img {
@@ -144,7 +141,37 @@ button {
 
 .sign-up {
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
 
+.sign-up-box {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 24px 48px;
+    margin: 40px 80px;
+    border-radius: 4px;
+    color:#E5E7EB;
+}
+
+.sign-up-btn button {
+    border-color:white;
+    border-style: solid;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 4px 16px;
+    cursor: pointer;
+}
+
+.sign-up-box h2, p {
+    margin: 0;
 }
 
 /* FOOTER */
